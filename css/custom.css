@@ -1,0 +1,55 @@
+/* Basic —————————————————————————————— */
+#logo , .menu-container{ border: 0 !important ; } /*刪除 HEADER Border 線條*/
+#logo img , .header-wrap-clone { height: 4.375rem !important ; } /*減少 HEADER 高度*/
+.menu-link { padding: 1rem 1rem !important ; font-size: 0.875rem ; } /*減少 HEADER 高度*/ /*HEADER Menu 字體大小*/
+
+/* General —————————————————————————————— */
+.red { color: #FF0000 ; }
+
+/* Index —————————————————————————————— */
+.schedule .container { max-width: 60rem ; }
+.schedule .journey { margin-bottom: 2rem ; }
+.schedule .journey .top { display: flex ; margin-bottom: 0.5rem ; font-size: 1.125rem ; }
+.schedule .journey .top .time { margin-right: 1rem ; }
+.schedule .journey .top .name { font-weight: 700 ; }
+.schedule .journey .top .location { flex-grow: 1 ; text-align: right ; }
+.schedule .journey .top .location i { margin-right: 0.5rem ; }
+.schedule .journey .content { padding: 1rem ; border-radius: 0.625rem ; border: 1px solid #EEEEEE ; box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 5%) !important ; }
+.schedule .journey .content .crew { margin-bottom: 1rem ; }
+.schedule .journey .content .crew .team { margin-bottom: 0.625rem ; }
+.schedule .journey .content .crew .team h3 { font-size: 1rem ; }
+.schedule .journey .content .crew .man { display: inline-block ; background-color: #EEEEEE ; padding: 0.125rem 0.5rem ; margin-right: 0.5rem ; margin-bottom: 0.5rem ; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
