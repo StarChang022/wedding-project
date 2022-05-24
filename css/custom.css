@@ -5,23 +5,32 @@
 
 /* General —————————————————————————————— */
 .red { color: #FF0000 ; }
+.container { max-width: 60rem ; }
 
-/* Index —————————————————————————————— */
-.schedule .container { max-width: 60rem ; }
-.schedule .journey { margin-bottom: 2rem ; }
-.schedule .journey .top { display: flex ; margin-bottom: 0.5rem ; font-size: 1.125rem ; }
-.schedule .journey .top .time { margin-right: 1rem ; }
-.schedule .journey .top .name { font-weight: 700 ; }
-.schedule .journey .top .location { flex-grow: 1 ; text-align: right ; }
-.schedule .journey .top .location i { margin-right: 0.5rem ; }
-.schedule .journey .content { padding: 1rem ; border-radius: 0.625rem ; border: 1px solid #EEEEEE ; box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 5%) !important ; }
-.schedule .journey .content .crew { margin-bottom: 1rem ; }
-.schedule .journey .content .crew .team { margin-bottom: 0.625rem ; }
-.schedule .journey .content .crew .team h3 { font-size: 1rem ; }
-.schedule .journey .content .crew .man { display: inline-block ; background-color: #EEEEEE ; padding: 0.125rem 0.5rem ; margin-right: 0.5rem ; margin-bottom: 0.5rem ; }
+/* TABs —————————————————————————————— */
+.switcher .content-wrap { padding-bottom: 0 ; }
+.switcher .tabs { border-bottom: 1px solid #DDDDDD ; padding: 0 1rem ; }
+.switcher .tabs { display: flex ; }
+.switcher .tabs a+a { margin-left: -1px ; }
+.switcher .tabs .tab { padding: 0.5rem 1.25rem ; margin-bottom: -1px ; color: #444444 ; background-color: #F3F3F3 ; border: 1px solid #DDDDDD ; font-weight: 700 ; }
+.switcher .tabs .tab.active { background-color: #FFFFFF ; border-bottom-color: #FFFFFF ; }
 
+/* Content —————————————————————————————— */
+.journey { margin-bottom: 2rem ; }
+.journey .top { display: flex ; margin-bottom: 0.5rem ; font-size: 1.125rem ; }
+.journey .top .time { margin-right: 1rem ; }
+.journey .top .name { font-weight: 700 ; }
+.journey .top .location { flex-grow: 1 ; text-align: right ; }
+.journey .top .location i { margin-right: 0.5rem ; }
+.journey .content { padding: 1rem ; border-radius: 0.625rem ; border: 1px solid #EEEEEE ; box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 5%) !important ; }
+.journey .content .crew { margin-bottom: 1rem ; }
+.journey .content .crew .team { margin-bottom: 0.625rem ; }
+.journey .content .crew .team h3 { font-size: 1rem ; }
+.journey .content .crew .man { display: inline-block ; background-color: #EEEEEE ; padding: 0.125rem 0.5rem ; margin-right: 0.5rem ; margin-bottom: 0.5rem ; }
 
-
+.journey .content .description p { font-weight: 300 ; font-size: 0.875rem ; margin-bottom: 0.25rem ; }
+.journey .content .description ul { font-weight: 300 ; font-size: 0.875rem ; }
+.journey .content .description li { margin-bottom: 0.5rem ; }
 
 
 
