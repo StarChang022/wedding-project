@@ -23,19 +23,17 @@
 .journey .top .location { flex-grow: 1 ; text-align: right ; }
 .journey .top .location i { margin-right: 0.5rem ; }
 .journey .content { padding: 1rem ; border-radius: 0.625rem ; border: 1px solid #EEEEEE ; box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 5%) !important ; }
-.journey .content .crew { margin-bottom: 1rem ; }
-.journey .content .crew .team { margin-bottom: 0.625rem ; }
-.journey .content .crew .team h3 { font-size: 1rem ; }
-.journey .content .crew .man { display: inline-block ; background-color: #EEEEEE ; padding: 0.125rem 0.5rem ; margin-right: 0.5rem ; margin-bottom: 0.5rem ; }
 .journey .content .description p { font-weight: 300 ; font-size: 0.875rem ; margin-bottom: 0.25rem ; }
 .journey .content .description ul { font-weight: 300 ; font-size: 0.875rem ; }
 .journey .content .description li { margin-bottom: 0.5rem ; }
 .journey .content .list { margin-bottom: 1rem ; }
 .journey .content .list .team { margin-bottom: 0.625rem ; }
 .journey .content .list .team h3 { font-size: 1rem ; }
-.journey .content .list .single { display: inline-block ; background-color: #EEEEEE ; padding: 0.125rem 0.5rem ; margin-right: 0.5rem ; margin-bottom: 0.5rem ; }
+.journey .content .list .single { display: inline-block ; background-color: #EEEEEE ; border: 1px solid #EEEEEE ; padding: 0.125rem 0.5rem ; margin-right: 0.5rem ; margin-bottom: 0.5rem ; }
 .journey .content .list .single span { font-size: 0.875rem ; font-weight: 700 ; margin-right: 0.5rem ; }
-
+.journey .content .manager { position: relative ; font-size: 0.875rem ; margin-top: 2rem ; }
+.journey .content .manager .title { position: absolute ; top: -10px ; left: 10px ; background-color: #FFFFFF ; font-size: 0.75rem ; }
+.journey .content .manager .job { padding: 0.5rem 1rem ; border: 1px solid #D1D1D1 ; }
 
 
 
