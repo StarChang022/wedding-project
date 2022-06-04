@@ -27,12 +27,14 @@
 .journey .content .crew .team { margin-bottom: 0.625rem ; }
 .journey .content .crew .team h3 { font-size: 1rem ; }
 .journey .content .crew .man { display: inline-block ; background-color: #EEEEEE ; padding: 0.125rem 0.5rem ; margin-right: 0.5rem ; margin-bottom: 0.5rem ; }
-
 .journey .content .description p { font-weight: 300 ; font-size: 0.875rem ; margin-bottom: 0.25rem ; }
 .journey .content .description ul { font-weight: 300 ; font-size: 0.875rem ; }
 .journey .content .description li { margin-bottom: 0.5rem ; }
-
-
+.journey .content .list { margin-bottom: 1rem ; }
+.journey .content .list .team { margin-bottom: 0.625rem ; }
+.journey .content .list .team h3 { font-size: 1rem ; }
+.journey .content .list .single { display: inline-block ; background-color: #EEEEEE ; padding: 0.125rem 0.5rem ; margin-right: 0.5rem ; margin-bottom: 0.5rem ; }
+.journey .content .list .single span { font-size: 0.875rem ; font-weight: 700 ; margin-right: 0.5rem ; }
 
 
 
