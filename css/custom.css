@@ -34,7 +34,8 @@
 .journey .content .manager { position: relative ; font-size: 0.875rem ; margin-top: 2rem ; }
 .journey .content .manager .title { position: absolute ; top: -10px ; left: 10px ; background-color: #FFFFFF ; font-size: 0.75rem ; }
 .journey .content .manager .job { padding: 0.5rem 1rem ; border: 1px solid #D1D1D1 ; }
-
+.journey .content .manager .job .list { margin: 1rem 0 0 0 ; }
+.journey .content .manager .job ul { margin: 1rem 0 0 0 ; padding: 0 ; list-style: none ; }
 
 
 
